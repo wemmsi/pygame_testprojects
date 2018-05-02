@@ -5,6 +5,7 @@
 import pygame as pg
 import random
 from settings import *
+from sprites import *
 
 class Game:
     """Game class with all needed functions"""
@@ -20,6 +21,8 @@ class Game:
     def new_game(self):
         # initialize game new
         self.all_sprites = pg.sprite.Group()
+        self.player = Player()
+        self.all_sprites.add(self.player)
         self.run()
 
     def run(self):
