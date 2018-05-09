@@ -8,6 +8,7 @@ HEIGHT = 600
 FPS = 60
 FONT_NAME = 'courier new'
 HS_FILE = 'highscore.txt'
+SPRITESHEET = 'spritesheet_jumper.png'
 
 # Player properties
 PLAYER_ACC = 0.5
