@@ -1,3 +1,4 @@
+#! /usr/bin/env python3.6
 # Jumpy platform game
 # Kidscancode.org tutorial
 # platformer/main.py
